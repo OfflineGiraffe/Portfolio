@@ -1,0 +1,131 @@
+.weather
+{
+  position: relative;
+  width: 325px;
+  height: 200px;
+  animation: slide 2s linear;
+}
+@keyframes slide
+{
+  0%
+  {
+    transform: translateX(-50px)
+      translateY(25px);
+  }
+  100%
+  {
+    transform: translateX(0) translateY(0);
+  }
+} 
+
+.weather .sun
+{
+  position: absolute;
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%;
+  right: 50px;
+  background: #f0ca43;
+  animation: rotate 8s linear infinite, rise 2s linear;
+}
+@keyframes rise
+{
+  0%
+  {
+    right: 100px;
+    top: 50px;
+  }
+  100%
+  {
+    right: 50px;
+    top: 0;
+  }
+}
+@keyframes rotate
+{
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
+.weather .sun .rays
+{
+  position: absolute;
+  width: 10px;
+  height: 40px;
+  border-radius: 5px;
+  background: #f0ca43;
+}
+.weather .sun .rays:nth-child(1)
+{
+  top:-45px;
+  left: 45px;
+}
+.weather .sun .rays:nth-child(2)
+{
+  top:-22.5px;
+  right: -10px;
+  transform: rotate(45deg);
+}
+.weather .sun .rays:nth-child(3)
+{
+  top: 30px;
+  right: -30px;
+  transform:rotate(90deg);
+
+}
+.weather .sun .rays:nth-child(4)
+{
+  bottom:-22.5px;
+  right: -10px;
+  transform: rotate(135deg);
+
+}
+.weather .sun .rays:nth-child(5)
+{
+  bottom:-45px;
+  left: 45px;
+
+}
+.weather .sun .rays:nth-child(6)
+{
+  bottom:-22.5px;
+  left: -10px;
+  transform: rotate(-135deg);
+}
+.weather .sun .rays:nth-child(7)
+{
+  top: 30px;
+  left: -30px;
+  transform: rotate(-90deg);
+}
+.weather .sun .rays:nth-child(8)
+{
+  top:-22.5px;
+  left: -10px;
+  transform: rotate(-45deg);
+}
+.weather .cloud-1
+{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50% 50% 0 50%;
+  background: #fff;
+}
+.weather .cloud-2
+{
+  position: absolute;
+  left: 175px;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50% 50% 50% 0%;
+  background: #fff;
+}

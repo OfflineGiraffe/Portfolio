@@ -1,0 +1,115 @@
+"use client";
+import React, { useState, useRef }from 'react'
+import { ProjectCard } from './ProjectCard'
+import ProjectTag from './ProjectTag';
+import { motion, useInView } from 'framer-motion';
+
+
+const projectsData = [
+        {
+                id: 1,
+                title: "React Portfolio Website",
+                description: "This is my website Portfolio! This contains things about me and some of the work that i do and have done.",
+                image: "/images/projects/ReactProject.png",
+                tag: ["All", "Web"],
+                gitUrl: "/",
+                previewUrl: "/"
+        },
+        {
+                id: 2,
+                title: "UNSW Beans",
+                description: "To run you need to have two temrinals, one to start backend with  npm start \ and another to type bash run.sh 3 [backendport] [frontendport]",
+                image: "/images/projects/UNSWBeans.png",
+                tag: ["All", "Web"],
+                gitUrl: "https://github.com/OfflineGiraffe/UNSWBeans/tree/main",
+                previewUrl: "/"
+        },
+        {
+                id: 3,
+                title: "Astroid Game",
+                description: "A knockoff astroid game with a temporary powerup. The main goal is to get a high score.",
+                image: "/images/projects/Astroid.webp",
+                tag: ["All", "Game"],
+                gitUrl: "https://github.com/OfflineGiraffe/Space-invaders",
+                previewUrl: "https://youtu.be/C2L462dTWB8"
+        },
+        {
+                id: 4,
+                title: "Tamagochi Game",
+                description: "Survive and get the most points! A point and click game to survive while getting the most points possible.",
+                image: "/images/projects/Tamagochi.webp",
+                tag: ["All", "Game"],
+                gitUrl: "https://github.com/OfflineGiraffe/Tamagotchi",
+                previewUrl: "https://youtu.be/wyByZNUUU34"
+        },
+]
+
+const cardVariants = {
+        initial: { y: 50, opacity: 0},
+        animate: { y:0, opacity: 1},
+}
+
+const ProjectsSection = ( {id} ) => {
+        const [tag, setTag] = useState("All");
+        const ref = useRef(null);
+        const isInView =  useInView(ref, {once: true});
+
+        const handleTagChange = (newTag) => {
+                setTag(newTag);
+        };
+
+        const filteredProjects = projectsData.filter((project) => 
+                project.tag.includes(tag)
+        );
+
+  return (
+        <section id={id}>
+                <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
+                        My Projects
+                </h2>
+                <div className='text-white flex flex-row justify-center items-center gap-2 py-6 '>
+                        <ProjectTag 
+                        onClick={handleTagChange} 
+                        name="All" 
+                        isSelected={tag === "All"}
+                        />
+                        <ProjectTag 
+                        onClick={handleTagChange} 
+                        name="Web" 
+                        isSelected={tag === "Web"}
+                        />
+                        <ProjectTag 
+                        onClick={handleTagChange} 
+                        name="Game" 
+                        isSelected={tag === "Game"}
+                        />
+
+                </div>
+                <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
+                        {filteredProjects.map((project, index) => (
+                        <motion.li 
+                        key={`${index}-${tag}`} // Add a key with tag to force remount
+                        variants={cardVariants}
+                        initial="initial"
+                        animate={isInView ? "animate" : "initial"}
+                        transition={{ duration: 0.3, delay: index * 0.4}}
+                        >
+
+                        <ProjectCard key={project.id} 
+                        title={project.title} 
+                        description={project.description} 
+                        imgUrl={project.image} 
+                        tags={project}
+                        gitUrl={project.gitUrl}
+                        previewUrl={project.previewUrl}
+                        />
+                        </motion.li>
+                        ))}
+                </ul>
+                
+        </section>
+
+  );
+};
+
+export default ProjectsSection
