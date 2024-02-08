@@ -16,13 +16,13 @@ const HeroSection = () => {
           className='col-span-7 place-self-center text-center sm:text-left justify-self-start'>
             <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold'>
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary-300'>
-                Hello, I'm{" "}
+                Hello, I'm
                 </span>
                 <br></br>
                 <ExampleComponent/>
             </h1>
             <p className='text-[white] text-base sm:text-lg mb-6 lg:text-xl'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, a nesciunt nihil sint suscipit officiis facere nostrum hic. Architecto voluptatibus possimus perspiciatis consequuntur, ad quia ut fuga praesentium dolores esse.
+              
             </p>
             
           <div>
