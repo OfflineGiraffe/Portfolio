@@ -17,7 +17,7 @@ const projectsData = [
         },
         {
                 id: 3,
-                title: "LinkedIn: Offline7438",
+                title: "LinkedIn: Geoffrey Mok",
                 image: "/images/linkedin.png",
                 urllink: "https://www.linkedin.com/in/geoffrey-mok-378839210/"
         },
