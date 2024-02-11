@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className='footer border border-t-white border-l-transparent border-right-transparent text-blue-white bg-blue-300 bg-opacity-90'>
                 <div className='container p-5 flex justify-between'>
                         <span>
-                                LOGO
+                                GM
                         </span>
                         
                         <p className='text-white'>
