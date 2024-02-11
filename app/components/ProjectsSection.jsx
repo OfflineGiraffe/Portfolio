@@ -42,6 +42,15 @@ const projectsData = [
                 gitUrl: "https://github.com/OfflineGiraffe/Tamagotchi",
                 previewUrl: "https://youtu.be/wyByZNUUU34"
         },
+        {
+                id: 5,
+                title: "Blackout Controller",
+                description: "You can create and remove satellites. Different satellites have different properties. Launch using: 'Launch from Java Progam'",
+                image: "/images/projects/BlackoutController.png",
+                tag: ["All", "Game"],
+                gitUrl: "/",
+                previewUrl: "/"
+        },
 ]
 
 const cardVariants = {

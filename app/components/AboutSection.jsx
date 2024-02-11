@@ -37,10 +37,12 @@ const TAB_DATA = [
                 id: "projects",
                 content: (
                         <ul className='list-disc pl-2'>
-                                <li>UNSWBeans</li>
-                                <li>Knockoff Astroid Game</li>
-                                <li>Personal Website</li>
-                                <li>Other UNSW Projects</li>
+                                <li>UNSWBeans - Javascript</li>
+                                <li>Personal Website - HTML & CSS & Next.js</li>
+                                <li>Blackout Controller - Java</li>
+                                <li>Tamagochi game - pygame</li>
+                                <li>Knockoff Astroid Game - python/pygame</li>
+                                <li>Other UNSW Projects - C, Java, typescript</li>
                         </ul>
                 )
         }

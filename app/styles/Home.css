@@ -5,6 +5,17 @@
   height: 200px;
   animation: slide 2s linear;
 }
+@media (max-width: 768px) {
+  .weather {
+    transform: scale(0.4); /* Adjust the scale value as needed */
+  }
+}
+
+@media (max-width: 480px) {
+  .weather {
+    transform: scale(0.2); /* Adjust the scale value as needed */
+  }
+}
 @keyframes slide
 {
   0%
