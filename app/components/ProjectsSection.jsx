@@ -10,7 +10,7 @@ const projectsData = [
                 id: 1,
                 title: "React Portfolio Website",
                 description: "This is my website Portfolio! This contains things about me and some of the work that i do and have done.",
-                image: "/images/projects/ReactProject.png",
+                image: "/images/projects/ReactProjects.png",
                 tag: ["All", "Web"],
                 gitUrl: "https://github.com/OfflineGiraffe/Portfolio",
                 previewUrl: "destination.html"
@@ -19,10 +19,28 @@ const projectsData = [
                 id: 2,
                 title: "UNSW Beans",
                 description: "To run you need to have two temrinals, one to start backend with  npm start \ and another to type bash run.sh 3 [backendport] [frontendport]",
-                image: "/images/projects/UNSWBeans.png",
+                image: "/images/projects/UNSWBean.png",
                 tag: ["All", "Web"],
                 gitUrl: "https://github.com/OfflineGiraffe/UNSWBeans/tree/main",
-                previewUrl: "/"
+                previewUrl: "https://drive.google.com/drive/u/0/folders/1FdNesvzWLlpDD83QmMvGwZWCFRndiQDf"
+        },
+        {
+                id: 5,
+                title: "Blackout Controller",
+                description: "You can create and remove satellites. Different satellites have different properties. Launch using: 'Launch from Java Progam'",
+                image: "/images/projects/BlackoutController.png",
+                tag: ["All", "Game"],
+                gitUrl: "https://github.com/OfflineGiraffe/BlackoutController",
+                previewUrl: "https://drive.google.com/drive/u/0/folders/1Wv5ucAEs0Sk6d_UZ1gQGs6vWGYlLgHAg"
+        },
+        {
+                id: 6,
+                title: "DungeonMania",
+                description: "You can create and remove satellites. Different satellites have different properties. Launch using: 'Launch from Java Progam'",
+                image: "/images/projects/dungeon_mania.png",
+                tag: ["All", "Game"],
+                gitUrl: "https://github.com/OfflineGiraffe/DungeonMania",
+                previewUrl: "https://drive.google.com/drive/u/0/folders/1dHlm9nP-mZ8qlZgr-YXiYdUA66Nr6cBl"
         },
         {
                 id: 3,
@@ -31,7 +49,7 @@ const projectsData = [
                 image: "/images/projects/Astroid.webp",
                 tag: ["All", "Game"],
                 gitUrl: "https://github.com/OfflineGiraffe/Space-invaders",
-                previewUrl: "https://youtu.be/C2L462dTWB8"
+                previewUrl: "https://drive.google.com/drive/u/0/folders/1_R68em-iEdXogQdvRKAGyWvT9eNrMEpZ"
         },
         {
                 id: 4,
@@ -40,16 +58,7 @@ const projectsData = [
                 image: "/images/projects/Tamagochi.webp",
                 tag: ["All", "Game"],
                 gitUrl: "https://github.com/OfflineGiraffe/Tamagotchi",
-                previewUrl: "https://youtu.be/wyByZNUUU34"
-        },
-        {
-                id: 5,
-                title: "Blackout Controller",
-                description: "You can create and remove satellites. Different satellites have different properties. Launch using: 'Launch from Java Progam'",
-                image: "/images/projects/BlackoutController.png",
-                tag: ["All", "Game"],
-                gitUrl: "/",
-                previewUrl: "/"
+                previewUrl: "https://drive.google.com/drive/u/0/folders/1FuOQAu1zxT84JmH3dIUiN1H0cpEp1duH"
         },
 ]
 
