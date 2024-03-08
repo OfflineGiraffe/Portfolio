@@ -10,6 +10,7 @@ const projectsData = [
                 id: 1,
                 title: "React Portfolio Website",
                 description: "This is my website Portfolio! This contains things about me and some of the work that i do and have done.",
+                language: "HTML & CSS & Next.js",
                 image: "/images/projects/ReactProjects.png",
                 tag: ["All", "Web"],
                 gitUrl: "https://github.com/OfflineGiraffe/Portfolio",
@@ -19,6 +20,7 @@ const projectsData = [
                 id: 2,
                 title: "UNSW Beans",
                 description: "A microsoft teams duplicate which includes channels, reacts, profile images etc.",
+                language: "Javascript & Typescript",
                 image: "/images/projects/UNSWBean.png",
                 tag: ["All", "Web"],
                 gitUrl: "https://github.com/OfflineGiraffe/UNSWBeans/tree/main",
@@ -28,6 +30,7 @@ const projectsData = [
                 id: 5,
                 title: "Blackout Controller",
                 description: "You can create and remove satellites. Different satellites have different properties.",
+                language: "Java",
                 image: "/images/projects/BlackoutController.png",
                 tag: ["All", "Game"],
                 gitUrl: "https://github.com/OfflineGiraffe/BlackoutController",
@@ -37,6 +40,7 @@ const projectsData = [
                 id: 6,
                 title: "DungeonMania",
                 description: "A dungeon maze like game where you can collect items and fight monsters.",
+                language: "Java",
                 image: "/images/projects/dungeon_mania.png",
                 tag: ["All", "Game"],
                 gitUrl: "https://github.com/OfflineGiraffe/DungeonMania",
@@ -46,6 +50,7 @@ const projectsData = [
                 id: 3,
                 title: "Astroid Game",
                 description: "A knockoff astroid game with a temporary powerup. The main goal is to get a high score.",
+                language: "Python/pygame",
                 image: "/images/projects/Astroid.webp",
                 tag: ["All", "Game"],
                 gitUrl: "https://github.com/OfflineGiraffe/Space-invaders",
@@ -55,6 +60,7 @@ const projectsData = [
                 id: 4,
                 title: "Tamagochi Game",
                 description: "Survive and get the most points! A point and click game to survive while getting the most points possible.",
+                language: "Python/pygame",
                 image: "/images/projects/Tamagochi.webp",
                 tag: ["All", "Game"],
                 gitUrl: "https://github.com/OfflineGiraffe/Tamagotchi",
@@ -115,7 +121,8 @@ const ProjectsSection = ( {id} ) => {
 
                         <ProjectCard key={project.id} 
                         title={project.title} 
-                        description={project.description} 
+                        description={project.description}
+                        language={project.language} 
                         imgUrl={project.image} 
                         tags={project}
                         gitUrl={project.gitUrl}

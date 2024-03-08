@@ -13,9 +13,11 @@ const TAB_DATA = [
                                 <li>Python</li>
                                 <li>java</li>
                                 <li>Javascript</li>
+                                <li>typescript</li>
                                 <li>HTML and CSS</li>
-                                <li>Google Slides</li>
-                                <li>Google Sheets/Excel</li>
+                                <li>Node.js</li>
+                                <li>TailwindCSS</li>
+                                <li>PostgreSQL</li>
                         </ul>
                 )
         },
@@ -41,7 +43,7 @@ const TAB_DATA = [
                                 <li>Personal Website - HTML & CSS & Next.js</li>
                                 <li>Blackout Controller - Java</li>
                                 <li>DungeonMania - Java</li>
-                                <li>Tamagochi game - pygame</li>
+                                <li>Tamagochi game - python/pygame</li>
                                 <li>Knockoff Astroid Game - python/pygame</li>
                                 <li>Other UNSW Projects - C, Java, typescript</li>
                         </ul>
