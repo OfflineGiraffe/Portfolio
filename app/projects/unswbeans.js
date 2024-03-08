@@ -15,10 +15,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-primary-200">
       <NavBar/>
       <div className="container mt-24 mx-auto px-12 py-4">
-        <Sunrising/>
-        <HeroSection />
-        <AboutSection />
-        <ProjectsSection id="projects"/>
+
       </div>
       <Contact id="contacts"/>
       <Footer />

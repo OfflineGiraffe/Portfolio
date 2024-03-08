@@ -5,22 +5,23 @@ import { Contactcard } from './Contactcard'
 const projectsData = [
         {
                 id: 1,
-                title: "Instagram: geoffrey_mok",
-                image: "/images/instagram.png",
-                urllink:"https://www.instagram.com/geoffrey__mok/"
-        },
-        {
-                id: 2,
-                title: "Facebook: Geoffrey Mok",
-                image: "/images/facebook.png",
-                urllink: "https://www.facebook.com/geoffrey.mok.33"
-        },
-        {
-                id: 3,
                 title: "LinkedIn: Geoffrey Mok",
                 image: "/images/linkedin.png",
                 urllink: "https://www.linkedin.com/in/geoffrey-mok-378839210/"
         },
+        {
+                id: 2,
+                title: "Github: OfflineGiraffe",
+                image: "/images/github.png",
+                urllink:"https://github.com/OfflineGiraffe"
+        },
+        {
+                id: 3,
+                title: "Facebook: Geoffrey Mok",
+                image: "/images/facebook.png",
+                urllink: "https://www.facebook.com/geoffrey.mok.33"
+        }
+
 ]
 
 

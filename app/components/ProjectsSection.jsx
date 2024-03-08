@@ -12,8 +12,8 @@ const projectsData = [
                 description: "This is my website Portfolio! This contains things about me and some of the work that i do and have done.",
                 image: "/images/projects/ReactProject.png",
                 tag: ["All", "Web"],
-                gitUrl: "/",
-                previewUrl: "/"
+                gitUrl: "https://github.com/OfflineGiraffe/Portfolio",
+                previewUrl: "destination.html"
         },
         {
                 id: 2,
