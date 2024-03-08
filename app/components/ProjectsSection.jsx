@@ -18,7 +18,7 @@ const projectsData = [
         {
                 id: 2,
                 title: "UNSW Beans",
-                description: "To run you need to have two temrinals, one to start backend with  npm start \ and another to type bash run.sh 3 [backendport] [frontendport]",
+                description: "A microsoft teams duplicate which includes channels, reacts, profile images etc.",
                 image: "/images/projects/UNSWBean.png",
                 tag: ["All", "Web"],
                 gitUrl: "https://github.com/OfflineGiraffe/UNSWBeans/tree/main",
@@ -27,7 +27,7 @@ const projectsData = [
         {
                 id: 5,
                 title: "Blackout Controller",
-                description: "You can create and remove satellites. Different satellites have different properties. Launch using: 'Launch from Java Progam'",
+                description: "You can create and remove satellites. Different satellites have different properties.",
                 image: "/images/projects/BlackoutController.png",
                 tag: ["All", "Game"],
                 gitUrl: "https://github.com/OfflineGiraffe/BlackoutController",
@@ -36,7 +36,7 @@ const projectsData = [
         {
                 id: 6,
                 title: "DungeonMania",
-                description: "You can create and remove satellites. Different satellites have different properties. Launch using: 'Launch from Java Progam'",
+                description: "A dungeon maze like game where you can collect items and fight monsters.",
                 image: "/images/projects/dungeon_mania.png",
                 tag: ["All", "Game"],
                 gitUrl: "https://github.com/OfflineGiraffe/DungeonMania",

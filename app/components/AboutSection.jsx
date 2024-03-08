@@ -40,6 +40,7 @@ const TAB_DATA = [
                                 <li>UNSWBeans - Javascript</li>
                                 <li>Personal Website - HTML & CSS & Next.js</li>
                                 <li>Blackout Controller - Java</li>
+                                <li>DungeonMania - Java</li>
                                 <li>Tamagochi game - pygame</li>
                                 <li>Knockoff Astroid Game - python/pygame</li>
                                 <li>Other UNSW Projects - C, Java, typescript</li>
