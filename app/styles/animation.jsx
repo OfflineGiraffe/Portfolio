@@ -9,7 +9,7 @@ const ExampleComponent = () => {
       1000,
       'A UNSW Student',
       1000, 
-      'Sudying CS Comm',
+      'Studying CS Comm',
       1000,
     ]}
     wrapper="span"
