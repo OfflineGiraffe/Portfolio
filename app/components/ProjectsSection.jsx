@@ -17,6 +17,16 @@ const projectsData = [
                 previewUrl: "destination.html"
         },
         {
+                id: 7,
+                title: "BigBrain",
+                description: "A kahoot clone run locally. Allows admin to create games and players to play, displaying results",
+                language: "Javascrip, HTML, CSS, tailwind, Cypress",
+                image: "/images/projects/BigBrain.png",
+                tag: ["All", "Web"],
+                gitUrl: "https://github.com/OfflineGiraffe/BigBrain",
+                previewUrl: "destination.html"
+        },
+        {
                 id: 2,
                 title: "UNSW Beans",
                 description: "A microsoft teams duplicate which includes channels, reacts, profile images etc.",
