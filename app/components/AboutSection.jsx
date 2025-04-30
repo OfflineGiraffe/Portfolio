@@ -26,11 +26,13 @@ const TAB_DATA = [
                 id: "experience",
                 content: (
                         <ul className='list-disc pl-2'>
-                                <li>UNSW Engsoc Programs Director</li>
-                                <li>UNSW Engsoc Programs Subcommittee</li>
                                 <li>Mobile Technition</li>
+                                <li>Code camp Coding Teacher</li>
+                                <li>Front end developer volunteer for QuiteSIte Guru</li>
                                 <li>Uniqlo Sales Associate</li>
                                 <li>Macdonalds Kitchen Crew Member</li>
+                                <li>UNSW Engsoc Programs Director</li>
+                                <li>UNSW Engsoc Programs Subcommittee</li>
                         </ul>
                 )
         },
@@ -40,6 +42,7 @@ const TAB_DATA = [
                 content: (
                         <ul className='list-disc pl-2'>
                                 <li>UNSWBeans - Javascript</li>
+                                <li>BigBrain - Javascript</li>
                                 <li>Personal Website - HTML & CSS & Next.js</li>
                                 <li>Blackout Controller - Java</li>
                                 <li>DungeonMania - Java</li>
