@@ -17,6 +17,26 @@ const projectsData = [
                 previewUrl: "destination.html"
         },
         {
+                id: 8,
+                title: "HomeWise",
+                description: "Capstone project : Realestate Website with a recommendation algorithm for users",
+                language: "TypeScript, TailWind, MongoDB, Cypress & Jest",
+                image: "/images/projects/HomeWise.png",
+                tag: ["All", "Web"],
+                gitUrl: "https://github.com/OfflineGiraffe/HomeWise",
+                previewUrl: "destination.html"
+        },
+        {
+                id: 9,
+                title: "Stock Market Tracker",
+                description: "Website that tracks a given stock on the NASDEQ. Can see various information about each stock",
+                language: "TypeScript, MongoDB, Express.js",
+                image: "/images/projects/StockMarketTracker.png",
+                tag: ["All", "Web"],
+                gitUrl: "https://github.com/OfflineGiraffe/stockTracker",
+                previewUrl: "https://stock-tracker-frontend-mu.vercel.app/#/home"
+        },
+        {
                 id: 7,
                 title: "BigBrain",
                 description: "A kahoot clone run locally. Allows admin to create games and players to play, displaying results",
